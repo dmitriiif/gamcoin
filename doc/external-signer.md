@@ -4,7 +4,7 @@ Gamcoin Core can be launched with `-signer=<cmd>` where `<cmd>` is an external t
 
 ## Example usage
 
-The following example is based on the [HWI](https://github.com/gamcoin-core/HWI) tool. Version 2.0 or newer is required. Although this tool is hosted under the Gamcoin Core GitHub organization and maintained by Gamcoin Core developers, it should be used with caution. It is considered experimental and has far less review than Gamcoin Core itself. Be particularly careful when running tools such as these on a computer with private keys on it.
+The following example is based on the [HWI](https://github.com/gamcoin-core/HWI) tool. Version 2.0 or newer is required. Although this tool is hosted under the Gamcoin Core GitHub organization and maintained by Bitcoin Core developers, it should be used with caution. It is considered experimental and has far less review than Gamcoin Core itself. Be particularly careful when running tools such as these on a computer with private keys on it.
 
 When using a hardware wallet, consult the manufacturer website for (alternative) software they recommend. As long as their software conforms to the standard below, it should be able to work with Gamcoin Core.
 
