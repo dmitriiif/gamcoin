@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[o:gamcoin:p:gamcoin:r:qt-translation-027x]
+file_filter = src/qt/locale/gamcoin_<lang>.xlf
+source_file = src/qt/locale/gamcoin_en.xlf
+source_lang = en

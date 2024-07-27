@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Gamcoin Core Security Policy
+    url: https://github.com/gamcoin/gamcoin/blob/master/SECURITY.md
+    about: View security policy
+  - name: Gamcoin Core Developers
+    url: https://gamcoincore.org
+    about: Gamcoin Core homepage

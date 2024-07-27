@@ -1,0 +1,33 @@
+# /etc/conf.d/gamcoind: config file for /etc/init.d/gamcoind
+
+# Config file location
+#GAMCOIND_CONFIGFILE="/etc/gamcoin/gamcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $GAMCOIND_USER)
+#GAMCOIND_PIDDIR="/var/run/gamcoind"
+
+# What filename to give the pidfile
+#GAMCOIND_PIDFILE="${GAMCOIND_PIDDIR}/gamcoind.pid"
+
+# Where to write gamcoind data (be mindful that the blockchain is large)
+#GAMCOIND_DATADIR="/var/lib/gamcoind"
+
+# User and group to own gamcoind process
+#GAMCOIND_USER="gamcoin"
+#GAMCOIND_GROUP="gamcoin"
+
+# Path to gamcoind executable
+#GAMCOIND_BIN="/usr/bin/gamcoind"
+
+# Nice value to run gamcoind under
+#GAMCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#GAMCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for gamcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+GAMCOIND_SIGTERM_TIMEOUT=600
